@@ -4,5 +4,9 @@
   "description": "React component wrapper for Glider.js",
   "main": "index.js",
   "author": "Kenny Smith <mail@kjs3.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kjs3/glider-react.git"
+  }
 }
