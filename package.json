@@ -1,0 +1,8 @@
+{
+  "name": "glider-react",
+  "version": "0.0.1",
+  "description": "React component wrapper for Glider.js",
+  "main": "index.js",
+  "author": "Kenny Smith <mail@kjs3.com>",
+  "license": "MIT"
+}
