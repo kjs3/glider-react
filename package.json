@@ -2,10 +2,32 @@
   "name": "glider-react",
   "version": "0.0.1",
   "description": "React wrapper for Glider.js",
+  "main": "./lib",
   "author": "Kenny Smith <mail@kjs3.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git@github.com:kjs3/glider-react.git"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "jest": "^23.6.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "peerDependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
   }
 }
